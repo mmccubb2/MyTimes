@@ -11,20 +11,35 @@ header {
   border-bottom: 1px solid black;
 }
 
+/* Header Nav Styles */
 nav {
 display: block;
 padding-right: 40px;
 }
 
-/*nav span {
+nav span {
   display: inline-block;
   padding: 20px 10px;
-}*/
+}
 
 nav a {
   text-decoration: underline;
   color: black;
 }
+
+/* Header Logo Styles */
+.logo{
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+
 
 span {
   padding: 20px 10px;
