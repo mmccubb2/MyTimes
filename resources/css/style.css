@@ -40,7 +40,26 @@ nav a {
 }
 
 
+/* Main Content Styles */
+.content {
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
 
 span {
   padding: 20px 10px;
+}
+
+
+/*--------------------------------- LEFT COLUMN --------------------------*/
+/* Main Story*/
+.large.column {
+  width: 630px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
