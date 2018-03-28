@@ -45,21 +45,47 @@ nav a {
   display: flex;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+  border: 1px solid black;
 }
 
 span {
   padding: 20px 10px;
+  border: 1px solid black;
 }
 
 
 /*--------------------------------- LEFT COLUMN --------------------------*/
 /* Main Story*/
-.large.column {
+.large .column {
   width: 630px;
+  border: 1px solid black;
 }
 
 .column{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+  border: 1px solid black;
+}
+
+.lead-story {
+  display: block;
+  border: 1px solid black;
+}
+
+/*.image-content {
+  background-image: url(../images/img-story-main.png);
+  display: flex;
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  border: 1px solid black;
+}*/
+
+.narrative {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
+  border: 1px solid black;
 }
