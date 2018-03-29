@@ -33,7 +33,7 @@ nav a {
   padding-left: 30px;
   align-items: center;
   flex-grow: 1;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .logo span {
@@ -47,12 +47,12 @@ nav a {
   display: flex;
   margin: 0px auto 78px auto;
   padding-top: 116px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 span {
   padding: 20px 10px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 
@@ -60,19 +60,19 @@ span {
 /* Main Story*/
 .large .column {
   width: 630px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .column{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .lead-story {
   display: block;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .narrative {
@@ -80,7 +80,7 @@ span {
   font-size: 17px;
   color: black;
   margin-top: 16px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 /* Main Story Image */
@@ -106,18 +106,22 @@ span {
 
 /* Sub Stories */
 .stories {
-  display: block;
+  display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
 
-/*.story {
-  display: block;
+.story {
+  display: flex;
   flex-direction: column;
   width: 300px;
 }
 
-.story-content {
+.stories .flex-content {
+  height: 250px;
+}
+
+/*.story-content {
   display: block;
   height: 250px;
 }*/
@@ -126,20 +130,20 @@ span {
 /* Story 1 Image*/
 .fall-cancelled.image-content {
   background-image: url(../images/img-story-2.png);
-  width: 630px;
+  width: 300px;
   margin-top: 0;
-  font-size: 40px;
-  text-align: left;
+  font-size: 30px;
+  text-align: center;
 }
 
 
 /* Story 2 Image */
 .pop-culture.image-content {
   background-image: url(../images/img-story-3.png);
-  width: 630px;
+  width: 300px;
   margin-top: 0;
-  font-size: 40px;
-  text-align: left;
+  font-size: 30px;
+  text-align: center;
 }
 
 
@@ -151,6 +155,6 @@ span {
   background-image: url(../images/img-story-1.png);
   width: 300px;
   margin-top: 0;
-  font-size: 40px;
-  text-align: left;
+  font-size: 30px;
+  text-align: center;
 }
