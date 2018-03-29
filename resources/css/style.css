@@ -1,3 +1,10 @@
+body{
+  margin: 0px;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: black;
+}
+
 header {
   display: flex;
   position: fixed;
