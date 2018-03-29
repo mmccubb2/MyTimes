@@ -33,6 +33,7 @@ nav a {
   padding-left: 30px;
   align-items: center;
   flex-grow: 1;
+  border: 1px solid black;
 }
 
 .logo span {
@@ -42,8 +43,9 @@ nav a {
 
 /* Main Content Styles */
 .content {
+  width: 1232px;
   display: flex;
-  margin: 0 auto 78px auto;
+  margin: 0px auto 78px auto;
   padding-top: 116px;
   border: 1px solid black;
 }
