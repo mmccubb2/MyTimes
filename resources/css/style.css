@@ -9,6 +9,7 @@ header {
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
+  background-color: white;
 }
 
 /* Header Nav Styles */
@@ -187,4 +188,38 @@ text-align: center;
   font-family: Veranda, sans-serif;
   font-size: 12px;
   color: Dimgrey;
+}
+
+
+/* ------------------------- Footer ------------------------------ */
+footer{
+  font-family: Veranda, sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+}
+
+footer .title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white
+}
+
+footer nav{
+  display: inline-block;
+  padding-left: 25px;
+}
+
+span.title{
+  padding: 0px 25px 0px 0px;
 }
